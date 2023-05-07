@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringConsumerService/SpringConsumerService.iml" filepath="$PROJECT_DIR$/SpringConsumerService/SpringConsumerService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringEureka/SpringEurekaServer.iml" filepath="$PROJECT_DIR$/SpringEureka/SpringEurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringProduceService/SpringProduceService.iml" filepath="$PROJECT_DIR$/SpringProduceService/SpringProduceService.iml" />
+    </modules>
+  </component>
+</project>
