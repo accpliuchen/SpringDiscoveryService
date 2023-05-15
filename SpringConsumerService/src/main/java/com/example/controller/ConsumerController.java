@@ -21,7 +21,7 @@ public class ConsumerController {
     RestTemplate restTemplate;
 
 
-    @RequestMapping(value = "/getEmployee/{schoolname}", method = RequestMethod.GET)
+    @RequestMapping(value = "/getEmployee/{schoolname}", method = { RequestMethod.GET, RequestMethod.POST })
     public String getEmployee(@PathVariable String schoolname)
     {
         System.out.println("Getting Employee details for " + schoolname);

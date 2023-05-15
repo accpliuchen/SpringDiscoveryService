@@ -18,6 +18,11 @@ spring:
     name: consumer-service
   main:
     allow-circular-references: true
+  boot:
+    admin:
+      client:
+        url: http://localhost:9100/
+
 
 logging:
   level:
